@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care Services</title>
+    <style>
+        /* Add your CSS styles here to make the page visually appealing */
+        /* ... (Styles from the previous example) ... */
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+        
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .login-form label {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .login-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .login-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pet Care Services</h1>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h2>Welcome to our Pet Care Center</h2>
+            <p>We provide a range of services to keep your beloved pets happy and healthy!</p>
+        </div>
+        <div class="services">
+            <!-- Service cards from the previous example -->
+        </div>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form class="login-form" action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Contact us at: <a href="mailto:info@petcarecenter.com">info@petcarecenter.com</a></p>
+    </footer>
+</body>
+
+</html>
